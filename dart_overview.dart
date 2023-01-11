@@ -36,5 +36,5 @@ class Point {
   final double y;
 
   const Point(this.x, this.y);
-  bool get IsInsideUnitCircle => x * x + y * y <= 1;
+  bool get isInsideUnitCircle => x * x + y * y <= 1;
 }
