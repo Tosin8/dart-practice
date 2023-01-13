@@ -10,7 +10,7 @@ What is Dart?
 Characteristics of Dart language
 1. It is type safe, i.e. it uses static type checking to ensure that a variable's value always matches the variable's static type. This method is known as Sound Typing. (Although, types are mandatory, type annonations are optional because of type inference). 
 2. Dart Typing system is Flexible, allowing the use of dynamic type combined with runtime checks, which are be useful during experimentation or for code that needs to be especially dynamic. 
-3. Dart offers SOUND NULL SAFETY (i.e values can't be null unless it's made to be)
+3. Dart offers SOUND NULL SAFETY (i.e values can't be null unless it's made to be), with SNS - null exceptions at runtime through static code analysis can be protected. 
 
 Dart Libraries: 
 1. DART: CORE - built in types, collections and other core functionalities for every dart program. 
