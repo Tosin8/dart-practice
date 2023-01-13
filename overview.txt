@@ -1,3 +1,8 @@
+Dart Overview: 
+Dart is a client optimized language for developing and the goal of fast apps on any platform, a productive programming language for multiplatform development. Being paired with a 'Flexible execution runtime platform' for app frameworks, which are Native Platforms and Web Platforms. 
+
+
+
 Dart Libraries: 
 1. DART: CORE - built in types, collections and other core functionalities for every dart program. 
 2. DART: COLLECTIONS - richer collection types such as queues, linked lists, hashmaps and binary trees. 
