@@ -8,6 +8,8 @@ Dart Libraries:
 7. DART:HTML - html element and other resources for web based application that needs to interact with the browser nd the document object model. (dom)
 8. DART:ISOLATE - Concurent programming using isolates, independent workers that are similar to threads but don't share memory, communications only through messages. 
 
-Dart Platforms: 
+Dart Platforms: It's compiler technology lets code to be run in different ways - 
 1. NATIVE PLATFORMS: for apps targeting mobile and desktop devices, dart includes both a Dart Vm with just in time(JIT) compilation and an ahead of time (AOT) compiler for producing machine code. 
-2. WEB PLATFORMS: for apps targeting the web, DArt can compile for development or production purposes. Its web compiler translates DArt into Javascript.  
+2. WEB PLATFORMS: for apps targeting the web, DArt can compile for development or production purposes. Its web compiler translates DArt into Javascript.
+     * Development Toolchain: fast incremental compilation stateful hot reload ( ARM32, ARM64)
+     * production Toolchain: fastest native output smallest runtime (x86_64, Javascripts)
