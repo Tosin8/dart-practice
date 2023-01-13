@@ -1,4 +1,10 @@
-// default introduction
+// default introduction - including
+// - libraries,
+// - async calls,
+// - nullable and non-nullable types,
+// - arrow syntax,
+// - generatiors,
+// -  streams and getters.
 
 import 'dart:math';
 
