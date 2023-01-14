@@ -1,0 +1,2 @@
+1. String Interpolation
+To put the value of an expression inside a string, using ${expression} and if the expression is an identifier, {} can be omitted. Example of identifiers: int students, float marks etc. 
