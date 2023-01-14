@@ -36,4 +36,10 @@ Dart Native (Machine code JIT and AOT)
 
 Dart Web (Javascript dev and prod)
 1. It enables running dart code on web platorms powered by Javascript. Dart Web compile dart code to Javascript code, which runs on browser
-2. It contains two compilation modes - An incremental development compiler 
+2. It contains two compilation modes - 'An incremental development compiler enabling a fast developer cycle' and 'an optimizing production compiler which compiles dart code to fast, compact, deployable Javascript. These effeciences come from techniques such as dead code elimation. 
+
+The Dart runtime
+Note: Regardless of which platform being used or compiled, executing the code requires a dart runtime and they are responsible for the following critical tasks: 
+1. Managing memory - it usesa managed memory model, where unused memory is reclaimed by a garbage collector (GC). 
+2. Enforcing the dart type system: Most type checks in Dart are static( compile time) and some type checks are dynamic (runtime).
+3. Managing isolates - the dart runtime controls the main isolates ( where code runs normally) and any other isolates that the app creates. 
