@@ -1,5 +1,10 @@
 Chapter 1: Beyond Dart Basics
 Modularity of Software Development
-1. Representation of complex things as a set of parts is called decomposition. By analogy, the real-world complex software may be broken into functional parts called modules. Each module can be created, changed, tested, used, and replaced separately
+1. Representation of complex things as a set of parts is called decomposition. 
+By analogy, the real-world complex software may be broken into functional parts called modules.
+ Each module can be created, changed, tested, used, and replaced separately. 
+
+Benefits of modules in development phase
+1. 
 
 
