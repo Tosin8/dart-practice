@@ -24,4 +24,17 @@ Note: failing to initialize a late variable, a runtime error occurs when the var
 FINAL AND CONST - using both if never intend to change a variable. A fial variable can be set only once. A const variable is a compile time constant. 
 
 BUILT IN TYPES: 
-* 
+* Numbers (int, double)
+* Strings (String)
+* Booleans (bool)
+* Lists - also known as arrays
+* Sets 
+* Maps   * Runes - often replaced by the character API  * Symbols * The value Null 
+
+Note: every built in types have their own constructor. Example: Using Map() constructor to create a map. 
+
+Other types,having special roles in the dart language: 
+* Object: the superclass of all dart classes except Null. 
+* Future and Stream: used in asynchrony support. 
+* Iterable : used in for-loops and in synchronous generator functions
+* void: indicates that a value is never used, often used as a return type. 
