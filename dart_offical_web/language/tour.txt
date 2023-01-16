@@ -16,3 +16,7 @@ IMPORTANT CONCEPTS:
 * Dart tools can report two kinds of problems: WARNINGS ( they are just indications that code might not work but they don't prevent the program from executing) and ERRORS ( it can either compile-time or run-time). 
 
 VARIABLES - it stores references. 
+LATE VARIABLES - it has two use cases: 
+               * declaring a non nullable variable that's initialized after its declaration. 
+               * lazily initializing a variable. 
+Note: failing to initialize a late variable, a runtime error occurs when the variable is used. 
