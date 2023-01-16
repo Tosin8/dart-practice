@@ -1,5 +1,11 @@
 1. // A single line comment. 
-2. void - a special type that indicates a value that's never used.
-3. int - indicates an integer. 
+2. VOID - a special type that indicates a value that's never used.
+3. INT - indicates an integer. 
 4. $variableName (or ${expression}) - string interpolation, including a variable or expression's string equivalent inside of a string literal. 
-main - The special required top level function where app executes starts. 
+5. MAIN() - The special required top level function where app executes starts. 
+6. VAR - a way to declare a variable without specifying its type. 
+
+IMPORTANT CONCEPTS: 
+* Object: everything being placed inside a variable
+* Class: it's an instance of every Object
+* A variable can be make nullable by putting a question mark (?) at the end of its type. 
