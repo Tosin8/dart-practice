@@ -22,3 +22,6 @@ LATE VARIABLES - it has two use cases:
 Note: failing to initialize a late variable, a runtime error occurs when the variable is used. 
 
 FINAL AND CONST - using both if never intend to change a variable. A fial variable can be set only once. A const variable is a compile time constant. 
+
+BUILT IN TYPES: 
+* 
