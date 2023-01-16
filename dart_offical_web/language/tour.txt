@@ -1,0 +1,5 @@
+1. // A single line comment. 
+2. void - a special type that indicates a value that's never used.
+3. int - indicates an integer. 
+4. $variableName (or ${expression}) - string interpolation, including a variable or expression's string equivalent inside of a string literal. 
+main - The special required top level function where app executes starts. 
