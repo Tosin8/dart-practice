@@ -8,4 +8,5 @@ void main() {
   printInteger(number);
 }
 
-var name = 'Bob';
+var name = 'Bob'; // variable
+final secondName = 'Bob'; // final variable 
