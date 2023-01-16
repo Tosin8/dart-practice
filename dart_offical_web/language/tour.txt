@@ -9,3 +9,10 @@ IMPORTANT CONCEPTS:
 * Object: everything being placed inside a variable
 * Class: it's an instance of every Object
 * A variable can be make nullable by putting a question mark (?) at the end of its type. 
+* Dart supports generic types, like List<int> ( a list of integers) or List<Object> (a list of Objects of any type)
+* Dart supports top level functions, such as main() as well as functions tied to a class or Object( static and instance methods respectively). A functions can be created within functions ( nested or local functions). 
+* Private keywords start with underscore (_), making it private to its library. 
+*If-else statement in dart - conditional expression condition ? expr1 : expr2
+* Dart tools can report two kinds of problems: WARNINGS ( they are just indications that code might not work but they don't prevent the program from executing) and ERRORS ( it can either compile-time or run-time). 
+
+VARIABLES - it stores references. 

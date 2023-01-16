@@ -7,3 +7,5 @@ void main() {
   var number = 42;
   printInteger(number);
 }
+
+var name = 'Bob';
