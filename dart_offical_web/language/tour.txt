@@ -44,4 +44,5 @@ NUMBERS: coming into two flavors -
 On native platforms, value can be from -2sup63 to 2sup63 -1. 
 2. Double : 64-bit (double precision) floating point numbers. 
 
-Strings - either single or double quotes to create a string. 
+Strings - either single or double quotes to create a string, using it either single or double quotes to create a string. 
+putting a value of an expression inside a string by using ${expression}, to getting the string corresponding, using teh toString() method. 
