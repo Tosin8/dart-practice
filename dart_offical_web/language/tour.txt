@@ -40,5 +40,8 @@ Other types,having special roles in the dart language:
 * void: indicates that a value is never used, often used as a return type. 
 
 NUMBERS: coming into two flavors - 
-1. Int : On the web, integer values are represented as Javascript numbers ( 64-bit floating point values with no fractional part). 
+1. Int : On the web, integer values are represented as Javascript numbers ( 64-bit floating point values with no fractional part). They are numbers without a decimal point. 
 On native platforms, value can be from -2sup63 to 2sup63 -1. 
+2. Double : 64-bit (double precision) floating point numbers. 
+
+Strings - either single or double quotes to create a string. 
