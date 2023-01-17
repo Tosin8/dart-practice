@@ -38,3 +38,6 @@ Other types,having special roles in the dart language:
 * Future and Stream: used in asynchrony support. 
 * Iterable : used in for-loops and in synchronous generator functions
 * void: indicates that a value is never used, often used as a return type. 
+
+NUMBERS: 
+1. Int : 
