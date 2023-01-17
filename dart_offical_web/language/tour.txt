@@ -49,4 +49,6 @@ putting a value of an expression inside a string by using ${expression}, to gett
 
 The == operator tests whether two objects are equivalent.Two Strings are equivalent if they contain the same sequence of code units. 
 
-BOOLEANS - represents bool, literals true and false : which are both compile time constants. 
+BOOLEANS - represents bool, literals true and false : which are both compile time constants.
+
+LISTS: dart infers that list has type List<int> 

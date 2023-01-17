@@ -19,3 +19,5 @@ num x =
 
 double z =
     1; // integer literals are automatically converted to doubles when necessary.
+var list = [1, 2, 3]; // list. 
+ 
