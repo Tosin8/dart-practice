@@ -39,5 +39,6 @@ Other types,having special roles in the dart language:
 * Iterable : used in for-loops and in synchronous generator functions
 * void: indicates that a value is never used, often used as a return type. 
 
-NUMBERS: 
-1. Int : 
+NUMBERS: coming into two flavors - 
+1. Int : On the web, integer values are represented as Javascript numbers ( 64-bit floating point values with no fractional part). 
+On native platforms, value can be from -2sup63 to 2sup63 -1. 
