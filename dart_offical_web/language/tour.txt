@@ -52,3 +52,9 @@ The == operator tests whether two objects are equivalent.Two Strings are equival
 BOOLEANS - represents bool, literals true and false : which are both compile time constants.
 
 LISTS: dart infers that list has type List<int> 
+* List use zero-based indexing, where 0 is teh index of the first value and list.length - 1 is the index of the last value. 
+* getting the list length using the .length property and accessing the list's value using the subscript operator([])
+* Using the spread operator(...) and the null aware spead operator(...?) which provides a concise way to insert multiple values into a collection. 
+
+SETS : an unordered collection of unique items. 
+MAPS: it's an object that associates keys and values, both key and values can be any type of object. 

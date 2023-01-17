@@ -9,6 +9,8 @@ void main() {
   printInteger(number);
   print('That expression all caps ${s.toUpperCase()}' + 'is very handy');
   print(r'In a raw string, not even \n gets special treatment.'); // raw string.
+  print(list);
+  print(list.length); // including list constructor, length.
 }
 
 var name = 'Bob'; // variable
@@ -19,5 +21,14 @@ num x =
 
 double z =
     1; // integer literals are automatically converted to doubles when necessary.
-var list = [1, 2, 3]; // list. 
+var list = [1, 2, 3, ...list1]; // list, with spread operator.
+var list1 = ['Car', 'Boat', 'Plane'];
+// var list.add[4];
+var halogens = {'fluorine', 'chlorine', 'bromine'};
+
+var gifts = {
+  'first': 'park',
+  'second': 'tuturial',
+  'third': 'pink'
+}; // using map. 
  
