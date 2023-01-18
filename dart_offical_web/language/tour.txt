@@ -60,4 +60,4 @@ SETS : an unordered collection of unique items.
 MAPS: it's an object that associates keys and values, both key and values can be any type of object. 
 
 
-FUNCTIONS: they are objects and have a type, Function. 
+FUNCTIONS: they are objects and have a type, Function. They can be assigned to variables or passed as arguments to other functions. 
