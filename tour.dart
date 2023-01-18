@@ -24,7 +24,8 @@ double z =
 var list = [1, 2, 3, ...list1]; // list, with spread operator.
 var list1 = ['Car', 'Boat', 'Plane'];
 // var list.add[4];
-var halogens = {'fluorine', 'chlorine', 'bromine'};
+var halogens = {'fluorine', 'chlorine', 'bromine'}; // sets examples
+
 
 var gifts = {
   'first': 'park',
@@ -32,3 +33,7 @@ var gifts = {
   'third': 'pink'
 }; // using map. 
  
+ // Using map constructor
+ var gifts1 = Map<String, String>(), 
+ gifts1['first'] = 'love'; 
+ gifts1['second'] = 'doves'; 
