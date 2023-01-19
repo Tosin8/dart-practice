@@ -70,3 +70,6 @@ Parameters: they are being of two, i.e., having any number of required positonal
 
 The main() function
 - every app must have a top-level main() function, which serves as the entrypont to the app. The main() function returns VOID and has an optional LIST<STRING> parameter for arguments. 
+
+FUNCTIONS AS FIRST-CLASS Object
+A function can be pass as a parameter to another function. 

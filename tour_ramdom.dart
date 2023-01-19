@@ -15,4 +15,11 @@ bool isNoble(int atomicNumber) {
 }
 
 // the shorthand of the above function. 
-bool isNoble (int atomicNumber) => _nobleGases[atomicNumber] != null; 
+bool isNoble (int atomicNumber) => _nobleGases[atomicNumber] != null;
+
+ // function NAMED PARAMETER
+ void enableFlags({bool? bold, bool? hidden}) {...}
+
+ enableFlags(bold: true, hidden: false); // when calling a function, specify named arguments using paramName: value.
+ 
+ const Scrollbar ({super.key, required Widget child}); // using required
