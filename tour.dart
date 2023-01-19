@@ -26,21 +26,9 @@ var list1 = ['Car', 'Boat', 'Plane'];
 // var list.add[4];
 var halogens = {'fluorine', 'chlorine', 'bromine'}; // sets examples
 
-
 var gifts = {
   'first': 'park',
   'second': 'tuturial',
   'third': 'pink'
 }; // using map. 
  
- // Using map constructor
- var gifts1 = Map<String, String>(); 
-  var gifts1['first'] = 'love'; 
-  var gifts1['second'] = 'doves'; 
-
- var nobleGases = Map<int, String>();
- nobleGases[2] = 'helium'; 
- nobleGase[10] = 'neon';  
-
-
-// Functions. 

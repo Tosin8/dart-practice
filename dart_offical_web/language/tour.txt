@@ -62,4 +62,4 @@ MAPS: it's an object that associates keys and values, both key and values can be
 
 FUNCTIONS: they are objects and have a type, Function. They can be assigned to variables or passed as arguments to other functions. 
 
-Note: the => expr syntax is a shorthand for { return expr; }. The => notation is sometimes reffered to as arrow syntax. 
+Note: the => expr syntax is a shorthand for { return expr; }. The => notation is sometimes refered to as arrow syntax. 
