@@ -23,3 +23,10 @@ bool isNoble (int atomicNumber) => _nobleGases[atomicNumber] != null;
  enableFlags(bold: true, hidden: false); // when calling a function, specify named arguments using paramName: value.
  
  const Scrollbar ({super.key, required Widget child}); // using required
+
+ // function as first class object
+void printElement(int element) {
+  print(element); 
+}
+var list = [1,2,3]; 
+list.forEach(printElement); // passing printElement as a parameter. 

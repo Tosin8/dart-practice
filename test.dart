@@ -6,9 +6,9 @@
 //   assert(arguments[1] == 'test');
 // }
 
-
-// function as first class object
-void printElement(int element) {
-  print(element); 
+void main() {
+  const list = ['apples', 'banana', 'oranges', 'yam', 'pawpawapple'];
+  list.map((item) => item.toUpperCase()).forEach((item) {
+    print('$item: ${item.length}');
+  });
 }
-var list = [1,2,3]; 

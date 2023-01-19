@@ -73,3 +73,8 @@ The main() function
 
 FUNCTIONS AS FIRST-CLASS Object
 A function can be pass as a parameter to another function. 
+
+A function can be assigned to a variable, sample:
+var loudify = (msg) => '!! ${msg.toUpperCase()} !!';  
+
+Anonmymous functions 
