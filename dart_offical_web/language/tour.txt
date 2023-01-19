@@ -80,4 +80,6 @@ var loudify = (msg) => '!! ${msg.toUpperCase()} !!';
 Anonmymous functions - they are nameless function, sometimes a lamba or closure.
 An Anonmymous function can be assigned to a variable so that it can be removed or add from a collection.  
 
-LEXICAL SCOPE - a dart is lexically scope meaning that the scope of variables is determined statically simply by the layout of the code. 
+LEXICAL SCOPE - a dart is lexically scope meaning that the scope of variables is determined statically simply by the layout of the code. Example is using nested functions with variables at each scope level. 
+
+LEXICAL CLOSURES  - A closure is a function object that has access to variables in its lexical scope,even when the function is used outside of its original scope. 
