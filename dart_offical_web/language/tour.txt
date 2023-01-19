@@ -85,3 +85,14 @@ LEXICAL SCOPE - a dart is lexically scope meaning that the scope of variables is
 LEXICAL CLOSURES  - A closure is a function object that has access to variables in its lexical scope,even when the function is used outside of its original scope. 
 
 Return Values - All functions return a value, if no return value is specified, the statement RETURN NULL, is implicitly appended to the function body. 
+
+OPERATORS : 
+ 1. Unary postfix : expr++ , expr--
+ 2. Unary prefix :  -expr , !expr, ++expr , --expr 
+ 3. Multiplicative : * ,  / ,  % 
+ 4. Additive : + , -
+ 5. bitwise AND : &
+ 6. bitwise OR : | 
+ 7. bitwise XOR : ^ 
+ 8. equality : == , !=
+ 9. relational and type test : >= , > , <= , < ,  as,  is, is!
