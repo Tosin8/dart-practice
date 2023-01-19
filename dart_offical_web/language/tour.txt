@@ -83,3 +83,5 @@ An Anonmymous function can be assigned to a variable so that it can be removed o
 LEXICAL SCOPE - a dart is lexically scope meaning that the scope of variables is determined statically simply by the layout of the code. Example is using nested functions with variables at each scope level. 
 
 LEXICAL CLOSURES  - A closure is a function object that has access to variables in its lexical scope,even when the function is used outside of its original scope. 
+
+Return Values - All functions return a value, if no return value is specified, the statement RETURN NULL, is implicitly appended to the function body. 
