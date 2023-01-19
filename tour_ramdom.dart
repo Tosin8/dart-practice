@@ -55,3 +55,18 @@ var paint = Paint();
 paint.color = Colors.black; 
 paint.strokeCap = StrokeCap.round; 
 paint.strokeWidth = 5.0; 
+
+// If/else statment
+if (isRaining()){
+  you.bringRainCoat(); 
+} else if(isSnowing()) {
+  you.wearJacket(); 
+} else {
+  car.putTopDown();  
+}
+
+// For loops 
+var message = StringBuffer('Dart is Fun'); 
+for(var i = 0; i< 5; i++){
+  message.write('!'); 
+}
