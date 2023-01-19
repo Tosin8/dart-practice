@@ -140,4 +140,16 @@ Cascades (.. , ?..) allwos to make a sequence of operations on the same object.
 
 OTHER OPERATORS
  * () - Function application, it represents a function call. 
- * [] - subscript access, it represents a call to the overridable[] operator. 
+ * [] - subscript access, it represents a call to the overridable[] operator. Example: fooList[1] passes the int 1 to fooList to access the element at index 1. 
+ * ?[] - conditional subscript access, like [] but the leftmost operand can be null. 
+ * . - member access, it refers to a property of an expression. Example: foo.bar ( selecing property bar from expression foo)
+ * ?. - conditional member access. Like. , but the leftmost operand can be null. Example: foo?.bar selects property bar from expression foo unless foo is null, in which case the value of foo?.bar is null 
+ * ! - null assertion operator - casts an expression to its underlying non-nullable type. 
+
+CONTROL FLOW STATEMENTS 
+ * if and else
+ * for loops
+ * while and do-while loops
+ * break and continue
+ * switch and case
+ * assert 
