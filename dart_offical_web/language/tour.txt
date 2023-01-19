@@ -128,3 +128,7 @@ Assignment operators - To assign only if the assigned to variable is null, using
 Example: 
  a = value; // assign value to A
  b ??= value; // assign value to b if b is null, otherwise b stays the same. 
+
+CONDITIONAL EXPRESSIONS - having two operators use instead of if-else statement. 
+ * condition ? expr1 : expr2 // if condition is true, evaluates expr1 and returns its value. otherwise, evaluates and returns the value of expr2. 
+ * expr1 ?? expr2 
