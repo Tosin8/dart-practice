@@ -137,3 +137,7 @@ Example: var visiblity = isPublic ? 'public' : 'private' ;
 
 CASCADE NOTATION 
 Cascades (.. , ?..) allwos to make a sequence of operations on the same object. 
+
+OTHER OPERATORS
+ * () - Function application, it represents a function call. 
+ * [] - subscript access, it represents a call to the overridable[] operator. 
