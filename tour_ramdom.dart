@@ -30,3 +30,18 @@ void printElement(int element) {
 }
 var list = [1,2,3]; 
 list.forEach(printElement); // passing printElement as a parameter. 
+
+
+// Slighthly longer version uses ?: operator
+String playerName(String ? name) => name != null ? name : 'Guest'; 
+
+// Very long version uses if-else statement. 
+String playerName(String? name) {
+  if (name != null) {
+    return name; 
+  } else {
+    return 'Guest'; 
+  }
+}
+
+// Cascade notation 

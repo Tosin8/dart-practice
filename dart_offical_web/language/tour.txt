@@ -131,4 +131,9 @@ Example:
 
 CONDITIONAL EXPRESSIONS - having two operators use instead of if-else statement. 
  * condition ? expr1 : expr2 // if condition is true, evaluates expr1 and returns its value. otherwise, evaluates and returns the value of expr2. 
- * expr1 ?? expr2 
+ * expr1 ?? expr2  // if expr1 is non-null, returns its value, otherwise evaluates and returns the value of expr2. 
+
+Example: var visiblity = isPublic ? 'public' : 'private' ; 
+
+CASCADE NOTATION 
+Cascades (.. , ?..) allwos to make a sequence of operations on the same object. 
