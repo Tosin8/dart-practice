@@ -113,3 +113,18 @@ TYPE TEST OPERATORS
  1. as ( typecase , also usesd to specify library prefixes)
  2. is ( true if the object has the specified type)
  3. is! ( true if the object doesn't have the specified type.)
+
+ Note: 
+  * The result of obj IS T is true, if obj Implements the interface specified by T. 
+  * Use the AS object to cast an object to a particular type if and only if am sure that the object is of that type. 
+
+Example:
+ * (employee as Person).firstName = 'Bob'; 
+ // if am not sure that the object is of type T, then i need to use IS T to check the type before using the object. 
+  if (employee is Person){
+   employee.firstName = 'Bob'; 
+  }
+Assignment operators - To assign only if the assigned to variable is null, using the ??= operator. 
+Example: 
+ a = value; // assign value to A
+ b ??= value; // assign value to b if b is null, otherwise b stays the same. 
