@@ -149,7 +149,7 @@ OTHER OPERATORS
 CONTROL FLOW STATEMENTS 
  * if and else
  * for loops
- * while and do-while loops
- * break and continue
+ * while and do-while loops : a while loop evaluates the condition before the loop, while a do-while loop evaluates the condition before the loop. 
+ * break and continue : use break to stop looping and continue to skip to the next loop iteration. 
  * switch and case
  * assert 

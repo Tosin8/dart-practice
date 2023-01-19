@@ -70,3 +70,31 @@ var message = StringBuffer('Dart is Fun');
 for(var i = 0; i< 5; i++){
   message.write('!'); 
 }
+
+// Using the FOR-IN form of iteration, if the object iterating over is iterable such as List/Set and don't know the current iteration counter. 
+for (final candidate in candidates) {
+  candidate.interview(); 
+}
+
+// Using forEach() method as another option. 
+var collection = [1,2,3]; 
+collection.forEach(print); // 123 
+
+// while and do-while
+while(!isDone()) {
+  doSomething(); 
+}
+
+do{
+  printLine(); 
+
+} while (!atEndOfpage()); 
+
+// using BREAK and CONTINUE
+for(int i=0; i< candidates.length; i++) {
+  var candidate = candidates[i]; 
+  if (candidate.yearsExperience < 5) {
+    continue; 
+  }
+  candidate.interview(); 
+}
