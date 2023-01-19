@@ -34,6 +34,13 @@ var gifts = {
 }; // using map. 
  
  // Using map constructor
- var gifts1 = Map<String, String>(), 
- gifts1['first'] = 'love'; 
- gifts1['second'] = 'doves'; 
+ var gifts1 = Map<String, String>(); 
+  var gifts1['first'] = 'love'; 
+  var gifts1['second'] = 'doves'; 
+
+ var nobleGases = Map<int, String>();
+ nobleGases[2] = 'helium'; 
+ nobleGase[10] = 'neon';  
+
+
+// Functions. 
