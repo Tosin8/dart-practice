@@ -3,7 +3,7 @@ void printInteger(int aNumber) {
   print('The number is $aNumber.');
 }
 
-void main() {
+void main() { // the main() function
   var number = 42;
   var s = 'String interpolation';
   printInteger(number);
@@ -32,3 +32,10 @@ var gifts = {
   'third': 'pink'
 }; // using map. 
  
+
+ // function NAMED PARAMETER
+ void enableFlags({bool? bold, bool? hidden}) {...}
+
+ enableFlags(bold: true, hidden: false); // when calling a function, specify named arguments using paramName: value.
+ 
+ const Scrollbar ({super.key, required Widget child}); // using required
