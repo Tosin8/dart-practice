@@ -77,4 +77,7 @@ A function can be pass as a parameter to another function.
 A function can be assigned to a variable, sample:
 var loudify = (msg) => '!! ${msg.toUpperCase()} !!';  
 
-Anonmymous functions 
+Anonmymous functions - they are nameless function, sometimes a lamba or closure.
+An Anonmymous function can be assigned to a variable so that it can be removed or add from a collection.  
+
+LEXICAL SCOPE - a dart is lexically scope meaning that the scope of variables is determined statically simply by the layout of the code. 

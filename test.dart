@@ -7,7 +7,13 @@
 // }
 
 void main() {
-  const list = ['apples', 'banana', 'oranges', 'yam', 'pawpawapple'];
+  const list = [
+    'apples',
+    'banana',
+    'oranges',
+    'yam',
+    'pawpawapple'
+  ]; // defining an anonymous function with a typed parameter - item and passes it to map function. 
   list.map((item) => item.toUpperCase()).forEach((item) {
     print('$item: ${item.length}');
   });
