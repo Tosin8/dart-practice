@@ -162,4 +162,20 @@ CONTROL FLOW STATEMENTS
 
  There are 3 kinds of exceptions: Throw, Catch and Finally. 
 
- CLASSES 
+ CLASSES: Every object is an instane of a class, and all classes except Null descend from object. \
+ 
+ Using Class Members: Objects have members involving functions and data ( methods and instance variables)
+ * To call a method , is to invoke it on an object - the method having accesss to that's object's functions and data. Using dot(.) refer to an instance variable or method.
+
+ Creating constructors by creating a functionwith teh same name as its class. The most commn form of constructor, the generative constructor creates a new instance of a class. 
+ The This keyword refers to the current instance .
+
+
+Methods : they are function that provide behavior for an object. 
+Instance method: on objects can access instance variables and THIS. 
+
+GETTERS AND SETTERS
+They are special methods that provide read and write access to an object's properties. 
+
+asynchrony SUPPORT 
+Dart library are full of functions that return FUTURE and STREAM object. 
