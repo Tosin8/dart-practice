@@ -90,7 +90,14 @@ do{
 
 } while (!atEndOfpage()); 
 
-// using BREAK and CONTINUE
+// BREAK - using break to stop looping
+while(true){
+  if(shutDownRequest()) break; 
+  processIncomingRequests(); 
+}
+
+
+// CONTINUE
 for(int i=0; i< candidates.length; i++) {
   var candidate = candidates[i]; 
   if (candidate.yearsExperience < 5) {
