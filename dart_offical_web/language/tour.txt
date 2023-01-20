@@ -156,3 +156,10 @@ CONTROL FLOW STATEMENTS
 
  EXCEPTIONS - They are errors indicating that something unexpected happened.
  * If exceptiosn isn't caught, the isolate that raised the exception is suspended, and typically the isolate and its program are terminated.  
+ * Because throwing an exception is an expression, you can throw exceptions in => statements, as well as anywhere else that allows expressions. 
+
+ CATCH - Catching or capturing an exception stops the exception from propating, unless the exception is rethrown. 
+
+ There are 3 kinds of exceptions: Throw, Catch and Finally. 
+
+ CLASSES 
