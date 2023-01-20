@@ -151,5 +151,5 @@ CONTROL FLOW STATEMENTS
  * for loops
  * while and do-while loops : a while loop evaluates the condition before the loop, while a do-while loop evaluates the condition before the loop. 
  * break and continue : use break to stop looping and continue to skip to the next loop iteration. 
- * switch and case
+ * switch and case : switch statements compare integer, string or compile-time constants using ==. 
  * assert 

@@ -105,3 +105,15 @@ for(int i=0; i< candidates.length; i++) {
   }
   candidate.interview(); 
 }
+
+// SWITCH AND CASE - Default to execute code when no case clause matches. 
+var command = 'OPEN'; 
+switch (command) {
+  case 'CLOSED': 
+    executeClosed(); 
+    break;
+  case 'PENDING': 
+     executePending(); 
+     break;
+     
+}
