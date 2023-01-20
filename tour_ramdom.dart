@@ -115,5 +115,15 @@ switch (command) {
   case 'PENDING': 
      executePending(); 
      break;
-     
+  case 'APPROVED': 
+     executeApproved(); 
+     break; 
+  case 'DENIED': 
+      executeDenied(); 
+      break;
+  case 'OPEN': 
+       executeOpen(); 
+       break;
+      default: 
+       executeUnknown(); 
 }

@@ -153,3 +153,6 @@ CONTROL FLOW STATEMENTS
  * break and continue : use break to stop looping and continue to skip to the next loop iteration. 
  * switch and case : switch statements compare integer, string or compile-time constants using ==. 
  * assert 
+
+ EXCEPTIONS - They are errors indicating that something unexpected happened.
+ * If exceptiosn isn't caught, the isolate that raised the exception is suspended, and typically the isolate and its program are terminated.  
