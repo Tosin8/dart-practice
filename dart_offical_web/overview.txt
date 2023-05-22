@@ -25,7 +25,7 @@ Dart Libraries
 
 Dart Platforms: It's compiler technology lets code to be run in different ways - 
 1. NATIVE PLATFORMS: for apps targeting mobile and desktop devices, dart includes both a Dart Vm with just in time(JIT) compilation and an ahead of time (AOT) compiler for producing machine code. 
-2. WEB PLATFORMS: for apps targeting the web, DArt can compile for development or production purposes. Its web compiler translates DArt into Javascript.
+2. WEB PLATFORMS: for apps targeting the web, Dart can compile for development or production purposes. Its web compiler translates DArt into Javascript.
      * Development Toolchain: fast incremental compilation stateful hot reload ( ARM32, ARM64)
      * production Toolchain: fastest native output smallest runtime (x86_64, Javascript)
 Note - ARM32, ARM64 and x86_64 are Dart Native while Javascript is for Dart web. 
