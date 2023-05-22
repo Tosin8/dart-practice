@@ -49,3 +49,5 @@ class Spacecraft {
     }
   }
 }
+
+// Enums - it's a way of enumerating a predefined set of values or instances in a way which enusres that there can't be any other instances of that type. 
