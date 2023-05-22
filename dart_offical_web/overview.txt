@@ -40,6 +40,6 @@ Dart Web (Javascript dev and prod)
 
 The Dart runtime
 Note: Regardless of which platform being used or compiled, executing the code requires a dart runtime and they are responsible for the following critical tasks: 
-1. Managing memory - it usesa managed memory model, where unused memory is reclaimed by a garbage collector (GC). 
+1. Managing memory - it uses managed memory model, where unused memory is reclaimed by a garbage collector (GC). 
 2. Enforcing the dart type system: Most type checks in Dart are static( compile time) and some type checks are dynamic (runtime).
 3. Managing isolates - the dart runtime controls the main isolates ( where code runs normally) and any other isolates that the app creates. 
