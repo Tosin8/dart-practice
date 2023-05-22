@@ -51,3 +51,9 @@ class Spacecraft {
 }
 
 // Enums - it's a way of enumerating a predefined set of values or instances in a way which enusres that there can't be any other instances of that type. 
+
+
+// Inheritance - It has single inheritance. 
+/// class Orbiter extends Spacecraft {
+/// double altitude; 
+/// Orbiter (super.name, DateTime super.launchDate, this.altitude); }
