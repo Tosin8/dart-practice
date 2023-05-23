@@ -1,4 +1,4 @@
-//1.  Introduction to Dart - Every app needs the top-level main() function, where execution starts.
+//1.  Introduction to Dart LANGUAGE - Every app needs the top-level main() function, where execution starts.
 
 // void main() {
 //   print('Hello, World');
@@ -57,4 +57,14 @@
 ///  but they don't prevent the program from executing) and errors(it can either compile time or run time - a compile time error prevents the
 ///  code from executing at all; a run time error results in an exception being raised while the code executes). 
 /// 
+/// 
+/// 
+/// Dart Guide - Library Tour
+/// Core Libraries
+/// 1. Dart:core - built in types, collections, and othe core functionality. 
+/// 2. Dart:async - support for asynchronous programming, Future and Stream.
+/// 3. Dart:math - maths constants and functions, a random number generator.
+/// 4. Dart:convert - for converting between different data representation
+/// 5. Dart: html - for DOM and other APIs for browser based apps
+/// 6. Dart: io - i/o for programs using the DArt VM (flutter apps, servers and command line)
 /// 
